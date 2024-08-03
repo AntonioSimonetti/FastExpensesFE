@@ -1,0 +1,73 @@
+.expense-list-div {
+    color: var(--primary-color) !important;
+    margin-top: 1.2rem;
+}
+
+
+.expense-list-div .btn-delete {
+    background-color:var(--custom-red);
+    border: none;
+    color: var(--text-color);
+}
+
+
+.expense-list-div .btn-edit {
+    background-color: var(--accent-color);
+    border: none;
+}
+
+
+@media (max-width: 800px) { 
+    .expense-list-div {
+        color: var(--primary-color) !important;
+        margin-top: 1.2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-list {
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .col-div-description {
+        flex: 1; 
+        padding: 1rem; 
+    }
+
+    .col-div-amount {
+        flex: 0 0 auto; 
+        padding: 1rem; 
+    }
+
+    .col-div-btn {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem; 
+        flex: 0 0 auto; 
+        gap: 1rem;
+    }
+
+    .expense-list-div .btn-delete {
+        background-color: var(--custom-red);
+        border: none;
+        font-size: 16px;
+        color: var(--text-color);
+    }
+
+    .expense-list-div .btn-edit {
+        background-color: var(--accent-color);
+        border: none;
+        font-size: 16px;
+    }
+
+    .expense-list-div hr {
+        width: 100%;
+        border: 1px solid var(--primary-color);
+        margin-top: 1rem;
+    }
+}

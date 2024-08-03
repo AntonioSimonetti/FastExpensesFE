@@ -1,0 +1,121 @@
+.main-div-signup  {    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    min-height: 91.5vh;
+    background-color: var(--background-color);
+}
+
+.main-form-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--light-text-color);
+    border: 2px solid black;
+    padding: 12rem;
+    border-radius: 8px;
+    margin-top: 5rem;
+    background-color: var(--primary-color);
+    min-height: 80vh;
+}
+
+.main-form-signup > h4 {
+    font-size: calc(1.5rem + 1vw);
+    margin: 2rem;
+    margin-bottom: 2.5rem;
+    color: var(--background-color);
+}
+
+.main-form-signup .form-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    border: 2px solid black !important;
+    color: var(--primary-color) !important;
+    font-weight: bolder !important;
+    box-sizing: border-box !important;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem var(--background-color) !important;
+    background-color: var(--background-color) !important;
+    border:none !important;
+    box-sizing: border-box !important;
+    margin: 0 ;
+}
+
+.form-btn-signup {
+    background-color: var(--background-color)!important;
+    color: var(--primary-color)!important;
+    font-size: 16px !important;
+    display: block;
+    padding: 0.5rem !important;
+    width: 10rem;
+    margin: auto;
+    border: 2px solid black !important;
+    font-weight: bolder !important;
+}
+
+.form-btn-signup:hover {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem var(--accent-color) !important;
+}
+
+.form-btn-signup:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem var(--accent-color) !important;
+}
+
+/* Per evitare che l'autocompletamento cambi il background color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px var(--background-color) inset !important;
+    -webkit-text-fill-color: var(--primary-color) !important;
+}
+
+input:-webkit-autofill {
+    border: 2px solid black !important;
+}
+
+
+@media (max-width: 320px) {
+    .main-form-signup > h4 {
+        font-size: 1.5rem; 
+        padding: 0.2rem;
+
+    }
+
+    .form-btn-signup {
+        background-color: var(--background-color)!important;
+        color: var(--primary-color)!important;
+        font-size: 16px !important;
+        display: block;
+        padding: 0.5rem !important;
+        width: 5rem;
+        margin: auto;
+        border: none !important;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .main-form-signup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: var(--light-text-color);
+        border: 2px solid black;
+        padding: 3rem;
+        border-radius: 8px;
+        margin-top: 5rem;
+        background-color: var(--primary-color);
+        min-height: 70vh;
+    }
+}
