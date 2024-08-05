@@ -1,46 +1,41 @@
-# Getting Started with Create React App and Redux
+<b>Expense Tracker Frontend - FastExpenses</b>
+<br>
+<br>
+This is the frontend repository for the Expense Tracker application. It allows users to authenticate, track their expenses with full CRUD operations, and visualize their spending habits through a pie chart.
+The app was created as an exercise to practice developing full-stack applications and to explore new technologies.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+You can test the app live here: https://expensesfe-a3gqgngsfxgsexg8.eastus-01.azurewebsites.net/
 
-## Available Scripts
+<b>Features</b>
+<br>
+<br>
+<i>Authentication:</i> Users can sign up and log in to their accounts.
+<br>
+<i>Expense Tracking:</i> Users can create, read, update, and delete (CRUD) their expense entries.
+<br>
+<i>Data Visualization:</i> View a pie chart representing the distribution of expenses using Chart.js and Chart.js2.
 
-In the project directory, you can run:
+<b>Technologies Used</b>
+<br>
+<br>
+<i>JavaScript/React:</i> The current implementation is in JavaScript, but it will be migrated to TypeScript in the future.
+<br>
+<i>HTML</i>
+<br>
+<i>CSS with:</i> some inline style, some precompiled bootstrap components and some classic css dedicated stylesheets
+<br>
+<i>Redux:</i> State management is handled using Redux.
+<br>
+<i>Chart.js and Chart.js2:</i> Used for creating the pie chart visualization.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<b>Future Enhancements</b>
+<br>
+<br>
+<i>TypeScript Migration:</i> The codebase will be translated from JavaScript to TypeScript for improved type safety and developer experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<b>Backend Repository</b>
+<br>
+<br>
+You can visit the backend repository for this project here: https://github.com/AntonioSimonetti/FastExpensesBE
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
